@@ -2,13 +2,19 @@ body{
 
 background: rgba(0,0,153,1);
 color: #fff;
+font-family: "Roboto Condensed",sans-serif;
+margin: 0px;
 
 }
 body>header>h1
 {
-  background: #000;
-  color:#0ff;
+  background: #fff;
+  color:#f00;
+  font-style: italic;
+  font-weight: 900;
+  margin: 0px 0px;
 }
+
 h3{
   color: #000;
 }
@@ -16,3 +22,10 @@ h3{
 body h3{
   color: #f00;
 }
+
+#main-header{
+
+  border-color: #f00;
+  border-bottom: 8px solid #f00;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap');
