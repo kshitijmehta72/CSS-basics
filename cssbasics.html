@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Best Pizza Ever</title>
+<meta charset="utf-8">
+<meta name="description" content="This page is a web page to learn html">
+<meta name="keywords" content="Html5,udemy,learn code">
+<meta name="author" content="Kshitij Mehta">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Best pizza ever!</h1>
+    <h3>We don't care if its healthy.We care that it's the best!</h3>
+    <h2>Meta tags provides more information to browsers about web page.</h2>
+    <h2>for css,"link" is created in head.</h2>
+    <h2>body h3 has higher priority than just h3 </h2>
+  </header>
+  <main>
+
+    <section>
+      <img src="pizza.jpeg">
+      <br>
+      <br>
+<img src="Peppy_Paneer.jpg">
+
+        <br>
+        <br>
+
+      <img src="onion.jpg">
+
+        <br>
+        <br>
+    <img src="cap.jpg">
+    </section>
+    <section>
+      <video width="540" height="320" controls>
+        <source src="3-5-Radio-buttons.mp4" type="video/mp4">
+
+      </video>
+    </section>
+    <div>
+      Controls autoplay results in autoplay and controls autoplay loop results in autoplay in a loop.
+    </div>
+    <section>
+      <audio width=600 controls>
+        <source src="aarti.mp3" type="audio/mp3">
+
+      </audio>
+    </section>
+    <section id="contact-form">
+      <h2>Place Order</h2>
+      <form action="place-order.php" method="get">
+        <h4>Delivery</h4>
+        <div>
+          Input name must be same for radio buttons and checkbox.
+        </div>
+        <input name="delivery" type="radio" value="delivery"> Delivery <br>
+        <input name="delivery" type="radio" value="pickup"> pickup <br>
+        <h4>Address</h4>
+        <input name="Address 1" placeholder="Add line 1" class="lg-input" >
+        <br>
+        <input name="Address 2" placeholder="Add line 2" class="lg-input">
+        <br>
+        <input name="City" placeholder="City" class="sm-imput">
+        <br>
+        <input name="state" placeholder="state" class="sm-input">
+      <br>
+      <br>
+      <br>
+      <h4>Size</h4>
+      <select name="size">
+ <option value="12">12" - 300 </option>
+ <option value="16">16"-500</option>
+ <option value="18">18"-700 </option>
+       </select>
+<br>
+<br>
+<h4>ingredients:</h4>
+      <input name="ingredient" type="checkbox" value="cheese">Cheese
+      <br>
+      <input name="ingredient" type="checkbox" value="Paneer">Panner
+      <br>
+      <input name="ingredient" type="checkbox" value="Onion">Onion
+      <br>
+      <input name="ingredient" type="checkbox" value="Capsicum">Capsicum
+<br>
+<br>
+      <button type="submit">Place Order</button>
+      </form>
+
+    </section>
+    <footer><center>&copy 2019<br>
+    <a href="#">Terms of service</a></center></footer>
+  </main>
+</body>
+
+</html>
