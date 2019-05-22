@@ -13,7 +13,6 @@ body>header>h1
   font-style: italic;
   font-weight: 900;
   margin: 0px 0px;
-  
 }
 
 h3{
@@ -22,6 +21,9 @@ h3{
 
 body h3{
   color: #f00;
+}
+h1,h3{
+  padding: 50px;
 }
 
 #main-header{
